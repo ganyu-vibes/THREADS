@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* ----- DAY VERSION -----  */
+#po-alien-day {
+  width: 450px;
+  height: auto;
+  margin: auto;
+  padding: 50px 80px;
+  background: #f7f7f7;
+  font-family: 'Lora';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #161616;
+  box-sizing: border-box;
+}
+
+#po-alien-day div {
+  box-sizing: border-box;
+}
+
+#po-alien-day .po-titre {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#po-alien-day .po-texte {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+#po-alien-day .po-info {
+  width: 70%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #989898;
+}
+
+#po-alien-day .po-info a {
+  color: grey;
+}
+
+#po-alien-day .po-info a:hover {
+  color: #aaaaaa;
+}
+
+/* ----- NIGHT VERSION ----- */
+#po-alien-night {
+  width: 450px;
+  height: auto;
+  margin: auto;
+  padding: 50px 80px;
+  background: #161616;
+  font-family: 'Lora';
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+#po-alien-night div {
+  box-sizing: border-box;
+}
+
+#po-alien-night .po-titre {
+  font-size: 3em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#po-alien-night .po-texte {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+#po-alien-night .po-info {
+  width: 70%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5e5e5e;
+}
+
+#po-alien-night .po-info a {
+  color: grey;
+}
+
+#po-alien-night .po-info a:hover {
+  color: #aaaaaa;
+}
+
+/* CREDIT, merci de ne pas enlever */
+#patronus-credit {
+  width: 100px;
+  margin: 3px auto;
+  font-size: 7px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+#po-alien-day:hover+#patronus-credit,
+#patronus-credit:hover,
+#po-alien-night:hover+#patronus-credit {
+  opacity: 1;
+}

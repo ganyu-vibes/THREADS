@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Yeseva+One&display=swap");
+
+#answer {
+	width: 370px;
+	margin: auto;
+	background: #f8f8f8;
+	box-sizing: border-box;
+	border-top: 1px solid black;
+	font-family: "Roboto";
+	font-size: 12px;
+	line-height: 12px;
+	padding: 30px;
+	text-align: justify;
+	color: black;
+}
+
+#answer .first {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#answer z {
+	width: 100%;
+	display: block;
+	font-family: "Yeseva One";
+	text-transform: uppercase;
+	font-size: 13px;
+	font-style: normal;
+}
+
+#answer .first img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	display: block;
+	box-sizing: unset;
+	padding: 8px;
+	border: 1px solid silver;
+}
+
+#answer .first .head {
+	margin-left: 20px;
+	font-size: 10px;
+	line-height: 10px;
+	font-style: italic;
+}
+
+#answer sep {
+	display: block;
+	margin: auto;
+	width: 55%;
+	height: 60px;
+	background-image: url("https://nsm09.casimages.com/img/2020/06/10//20061010554317252816846681.png");
+	background-size: cover;
+	background-position: center;
+}

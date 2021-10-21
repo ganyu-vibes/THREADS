@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i');
+
+body {
+	font-family: 'Source Sans Pro';
+	font-size: 12px;
+	line-height: 18px;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.dark {
+	width: 390px;
+	border: 1px solid gainsboro;
+	background: whitesmoke;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Roboto';
+	font-size: 12px;
+	line-height: 15px;
+	color: #222;
+}
+
+.dark .ness {
+	width: 390px;
+	background: white;
+	text-align: left;
+	font-family: 'Arial';
+	line-height: 10px;
+	font-weight: bold;
+	font-size: 9px;
+	color: black;
+	text-transform: uppercase;
+	padding: 11px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.dark .gloomy {
+	width: 390px;
+	margin: 10px;
+	border: 1px solid gainsboro;
+	padding: 15px;
+}
+
+.dark .gloomy img {
+	width: 200px;
+	filter: grayscale(1);
+	border: 7px solid white;
+	outline: 1px solid silver;
+}
+
+.dark .eerie {
+	width: 390px;
+	background: white;
+	border: 1px solid gainsboro;
+	margin: 0 10px 10px 10px;
+	text-align: justify;
+	padding: 18px;
+}
+
+.dark .sinister {
+	background: gainsboro;
+	width: 390px;
+	padding: 5px 10px;
+	text-align: right;
+	font-size: 11px;
+}
+
+/* ------------------------------ */
+
+.light {
+	width: 390px;
+	border: 1px solid gainsboro;
+	background: whitesmoke;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Roboto';
+	font-size: 12px;
+	line-height: 15px;
+	color: #222;
+	margin: auto;
+}
+
+.light b {
+	color: var(--accent);
+}
+
+.light a {
+	color: dimgrey;
+	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: .5s ease-in-out;
+}
+
+.light a:hover {
+	color: var(--accent);
+}
+
+.light .ness {
+	width: 390px;
+	background: white;
+	text-align: left;
+	font-family: 'Arial';
+	line-height: 10px;
+	font-weight: bold;
+	font-size: 9px;
+	color: black;
+	text-transform: uppercase;
+	padding: 11px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.light .gloomy {
+	width: 390px;
+	margin: 10px;
+	border: 1px solid gainsboro;
+	padding: 15px;
+	background: var(--accent);
+	text-align: center;
+}
+
+.light .gloomy img {
+	width: 200px;
+	filter: grayscale(1);
+	border: 7px solid white;
+	outline: 1px solid silver;
+}
+
+.light .eerie {
+	width: 390px;
+	background: white;
+	border: 1px solid gainsboro;
+	margin: 0 10px 10px 10px;
+	text-align: justify;
+	padding: 18px;
+}
+
+.light .sinister {
+	background: gainsboro;
+	width: 390px;
+	padding: 5px 10px;
+	text-align: right;
+	font-size: 11px;
+}

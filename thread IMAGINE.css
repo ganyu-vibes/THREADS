@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700&display=swap');
+
+.imagine {
+	background-image: url(https://nsm09.casimages.com/img/2019/02/08//19020805365117252816113113.png);
+	width: 390px;
+	padding: 30px 10px 30px 10px;
+	border: 1px solid gainsboro;
+	font-family: 'Roboto';
+	font-size: 13px;
+}
+
+.imagine > .home {
+	width: 350px;
+	height: 1px;
+}
+
+.imagine > .needy {
+	display: inline-block;
+	padding: 6px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 11px;
+	font-family: 'Roboto Condensed';
+	transform: translate(-45px, -15px);
+	float: right;
+}
+
+.imagine > img {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 100%;
+	border: 7px solid white;
+	box-shadow: 0 0 1px grey;
+	display: block!important;
+ margin: 35px auto 20px auto;
+}
+
+.imagine > .beauty {
+	width: 320px;
+	background: white;
+	border: 1px solid #EBEBEB;
+	padding: 15px;
+	text-align: justify;
+}
+
+.imagine > .patience {
+	float: right;
+	margin: 3px 20px 0 0;
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.imagine i {
+	color: #111;
+}

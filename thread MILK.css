@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP:300&display=swap');
+
+#milk {
+  width: 400px;
+  background: white;
+  margin: auto;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  box-sizing: border-box;
+  /* font-family: 'Kosugi Maru'; */
+  font-family: 'Roboto';
+  color: #333;
+  font-size: 13px;
+}
+
+#milk div {
+  box-sizing: border-box;
+}
+
+#milk .white {
+  width: 100%;
+  padding: 15px 30px 100px 30px;
+  text-align: justify;
+  line-height: 15px;
+}
+
+#milk .white h1 {
+  margin: 0;
+  /* font-family: 'Noto Serif LP'; */
+  font-family: 'Kosugi Maru';
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: lowercase;
+  letter-spacing: -1px;
+  font-size: 24px;
+  line-height: 15px;
+  color: var(--couleur1);
+}
+
+#milk .white a {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: underline dashed;
+  transition: .5s ease-in-out;
+}
+
+#milk .white a:hover {
+  color: silver;
+}
+
+#milk .white .grey {
+  margin: 20px 0;
+  background: #333;
+  display: inline-block;
+  float: right;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: white;
+}
+
+#milk .white .grey a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: .5s ease-in-out;
+}
+
+#milk .white .grey a:hover {
+  color: var(--couleur1);
+}
+
+#milk .black {
+  width: 100%;
+  background-image: linear-gradient(45deg, var(--couleur1), var(--couleur2));
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 0 0 6px 6px;
+}
+
+#milk .black img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+  margin-top: -74px;
+  border: 8px solid rgba(255, 255, 255, 0.4);
+}
+
+#milk b {
+  color: var(--couleur2);
+}
+
+#milk i {
+  color: silver;
+}

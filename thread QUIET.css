@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+#quiet {
+	width: 400px;
+	margin: auto;
+	position: relative;
+	color: black;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+#quiet a {
+	color: grey;
+	text-transform: lowercase!important;
+	font-weight: normal!important;
+	transition: 0.7s;
+	&:hover {
+		color: lightgrey;
+	}
+}
+
+#quiet i {
+	color: darkgrey;
+}
+
+#quiet .line {
+	width: 50px;
+	box-sizing: border-box;
+}
+
+#quiet img {
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100px;
+	position: absolute;
+	border: 4px solid white;
+	box-shadow: 0px 0px 0px 1px grey;
+	left: 20px;
+	top: 10px;
+}
+
+#quiet .silence {
+	width: calc(100% - 50px);
+}
+
+#quiet .silence .up {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 25px 15px;
+	box-sizing: border-box;
+	font-family: 'Cedarville Cursive';
+	text-shadow: 1px 2px 0px grey;
+	font-size: 22px;
+	border-left: 1px solid white;
+}
+
+#quiet .silence .up st {
+	font-size: 9px;
+	font-family: 'Arial';
+	font-style: italic;
+	text-shadow: none;
+	position: relative;
+	top: -2px;
+}
+
+#quiet .silence .down {
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: justify;
+	border-right: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+#quiet .silence .down::first-letter {
+	font-size: 19px;
+	float: left;
+	font-family: 'Cedarville Cursive';
+	font-weight: bold;
+	margin-right: 0px;
+	text-shadow: 2px 1px 0px lightgrey;
+	margin-right: 3px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+
+.kill {
+  width: 380px;
+  background: white;
+  padding: 20px 40px 65px 40px;
+  text-align: justify;
+  border: 1px solid gainsboro;
+  margin: auto;
+  position: relative;
+  font-family: 'Roboto';
+  font-size: 12px;
+  box-sizing: border-box;
+  line-height: 1.3;
+}
+
+.kill .you {
+  font-family: 'Kosugi Maru';
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+}
+
+.kill .with {
+  font-size: 10px;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.my {
+  width: 380px;
+  height: 70px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.my img {
+  width: 90px;
+  position: relative;
+  top: -55px;
+  border: 7px solid rgba(255, 255, 255, .4);
+  border-radius: 100%;
+}

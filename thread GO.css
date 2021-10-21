@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400i&display=swap');
+
+.go, .dont, .want, .jeez, .mr, .stark {
+  box-sizing: unset;
+}
+
+.go {
+   width: 401px;
+   height: 340px;
+   position: relative;
+   margin: auto;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.dont {
+  float: right;
+  width: 100px;
+  padding: 20px;
+  height: 302px;
+  color: white;
+}
+
+.dont img {
+  border-radius: 100px;
+  border: 12px solid rgba(0, 0, 0, .1);
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 40px;
+  box-sizing: unset;
+}
+
+.want {
+  width: 260px;
+  background: #EDEDED;
+  float: left;
+  height: 340px;
+  border-top: 1px solid #c2c2c2;
+  border-left: 1px solid #c2c2c2;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.jeez {
+  width: 210px;
+  height: 275px;
+  margin: 10px auto 0 auto;
+  background: white;
+  overflow: auto;
+  text-align: justify;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #d8d8d8;
+}
+
+.mr {
+  width: 120px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-top: 30px;
+  margin-left: -20px;
+  text-transform: lowercase;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.stark {
+  font-size: 8px;
+  text-align: center;
+  margin-top: 5px;
+  font-family: arial;
+}

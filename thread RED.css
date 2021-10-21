@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.red, .red div, .up, .up img {
+  box-sizing: unset;
+}
+
+.red {
+   width: 320px;
+   padding: 8px;
+   background: white;
+   padding-bottom: 20px;
+   border: 1px solid gainsboro;
+  position: relative;
+  margin: auto;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.red .lightt {
+  width: 290px;
+  background: white;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-transform: lowercase;
+  margin: auto;
+}
+
+.red .me {
+  width: 250px;
+  padding: 20px;
+  background: white;
+  text-align: justify;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto 15px auto;
+}
+
+.up {
+  width: 336px;
+  height: 120px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  margin: auto;
+}
+
+.up img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 7px solid rgba(0, 0, 0, .3);
+  margin: 13px;
+  border-radius: 100px;
+}

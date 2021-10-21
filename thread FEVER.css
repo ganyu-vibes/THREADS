@@ -1,0 +1,385 @@
+/* VERSION ALL-IN */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter&display=swap");
+
+#feverday {
+  --text: #333;
+  --border: #bbb;
+  --bg: #FAFAFA;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --scotch: rgba(0, 0, 0, 0.2);
+  --scotchbor: #aaa;
+}
+
+#fevernight {
+  --text: #bebebe;
+  --border: #0f0f0f;
+  --bg: #222;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --scotch: rgba(230, 230, 230, 0.3);
+  --scotchbor: #ccc;
+}
+
+#feverday,
+#fevernight {
+  width: 400px;
+  margin: 25px auto 5px auto;
+  background: var(--bg);
+  font-family: "Inter", sans serif;
+  font-size: 11px;
+  line-height: 1.3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 0 0 var(--shadow);
+  border: 1px solid var(--border);
+  color: var(--text);
+  position: relative;
+}
+
+#feverday i,
+#fevernight i {
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+}
+
+#feverday ::selection,
+#fevernight ::selection {
+  background: var(--text);
+  color: var(--bg);
+}
+
+#feverday div,
+#fevernight div {
+  box-sizing: border-box;
+}
+
+#feverday .fievre,
+#fevernight .fievre {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+}
+
+#feverday .yeux,
+#fevernight .yeux {
+  width: calc(100% - 80px);
+  font-family: "IBM Plex Mono";
+  text-transform: lowercase;
+  font-size: 13px;
+  letter-spacing: -1px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feverday .pense,
+#fevernight .pense {
+  width: 80px;
+  height: 100%;
+  padding: 8px;
+  border-left: 1px solid var(--border);
+}
+
+#feverday .pense img,
+#fevernight .pense img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#feverday .voix,
+#fevernight .voix {
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+#feverday .coeur,
+#fevernight .coeur {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  text-transform: uppercase;
+  font-size: 7px;
+  padding: 5px 10px;
+}
+
+#feverday a,
+#fevernight a {
+  color: grey;
+}
+
+#feverday a:hover,
+#fevernight a:hover {
+  color: silver;
+}
+
+#feverday .scotch,
+#fevernight .scotch {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background: var(--scotch);
+  border: 1px solid var(--scotchbor);
+  top: -18px;
+  left: 150px;
+  transform: rotate(-2deg);
+}
+
+/* CREDIT, merci de ne pas enlever */
+#patronus-credit {
+  width: 100px;
+  color: #141414;
+  margin: 3px auto;
+  font-size: 7px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+#feverday:hover+#patronus-credit,
+#patronus-credit:hover,
+#fevernight:hover+#patronus-credit {
+  opacity: 1;
+}
+
+/* VERSION DAY */
+/*@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter&display=swap");
+
+#feverday {
+  --text: #333;
+  --border: #bbb;
+  --bg: #FAFAFA;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --scotch: rgba(0, 0, 0, 0.2);
+  --scotchbor: #aaa;
+}
+
+#feverday {
+  width: 400px;
+  margin: 25px auto 5px auto;
+  background: var(--bg);
+  font-family: "Inter", sans serif;
+  font-size: 11px;
+  line-height: 1.3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 0 0 var(--shadow);
+  border: 1px solid var(--border);
+  color: var(--text);
+  position: relative;
+}
+
+#feverday i {
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+}
+
+#feverday ::selection {
+  background: var(--text);
+  color: var(--bg);
+}
+
+#feverday div {
+  box-sizing: border-box;
+}
+
+#feverday .fievre {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+}
+
+#feverday .yeux {
+  width: calc(100% - 80px);
+  font-family: "IBM Plex Mono";
+  text-transform: lowercase;
+  font-size: 13px;
+  letter-spacing: -1px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#feverday .pense {
+  width: 80px;
+  height: 100%;
+  padding: 8px;
+  border-left: 1px solid var(--border);
+}
+
+#feverday .pense img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#feverday .voix {
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+#feverday .coeur {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  text-transform: uppercase;
+  font-size: 7px;
+  padding: 5px 10px;
+}
+
+#feverday a {
+  color: grey;
+}
+
+#feverday a:hover {
+  color: silver;
+}
+
+#feverday .scotch {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background: var(--scotch);
+  border: 1px solid var(--scotchbor);
+  top: -18px;
+  left: 150px;
+  transform: rotate(-2deg);
+} */
+/* CREDIT, merci de ne pas enlever */
+/* #patronus-credit {
+  width: 100px;
+  color: #141414;
+  margin: 3px auto;
+  font-size: 7px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+#feverday:hover+#patronus-credit,
+#patronus-credit:hover {
+  opacity: 1;
+} */
+/* VERSION NIGHT */
+/* @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Inter&display=swap");
+
+#fevernight {
+  --text: #bebebe;
+  --border: #0f0f0f;
+  --bg: #222;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --scotch: rgba(230, 230, 230, 0.3);
+  --scotchbor: #ccc;
+}
+
+#fevernight {
+  width: 400px;
+  margin: 25px auto 5px auto;
+  background: var(--bg);
+  font-family: "Inter", sans serif;
+  font-size: 11px;
+  line-height: 1.3;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 0 0 var(--shadow);
+  border: 1px solid var(--border);
+  color: var(--text);
+  position: relative;
+}
+
+#fevernight i {
+  font-family: "IBM Plex Mono";
+  font-size: 11px;
+}
+
+#fevernight ::selection {
+  background: var(--text);
+  color: var(--bg);
+}
+
+#fevernight div {
+  box-sizing: border-box;
+}
+
+#fevernight .fievre {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+}
+
+#fevernight .yeux {
+  width: calc(100% - 80px);
+  font-family: "IBM Plex Mono";
+  text-transform: lowercase;
+  font-size: 13px;
+  letter-spacing: -1px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fevernight .pense {
+  width: 80px;
+  height: 100%;
+  padding: 8px;
+  border-left: 1px solid var(--border);
+}
+
+#fevernight .pense img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#fevernight .voix {
+  padding: 20px 30px;
+  text-align: justify;
+}
+
+#fevernight .coeur {
+  width: 100%;
+  border-top: 1px solid var(--border);
+  text-transform: uppercase;
+  font-size: 7px;
+  padding: 5px 10px;
+}
+
+#fevernight a {
+  color: grey;
+}
+
+#fevernight a:hover {
+  color: silver;
+}
+
+#fevernight .scotch {
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background: var(--scotch);
+  border: 1px solid var(--scotchbor);
+  top: -18px;
+  left: 150px;
+  transform: rotate(-2deg);
+} */
+/* CREDIT, merci de ne pas enlever */
+/* #patronus-credit {
+  width: 100px;
+  color: #141414;
+  margin: 3px auto;
+  font-size: 7px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+#fevernight:hover+#patronus-credit,
+#patronus-credit:hover {
+  opacity: 1;
+} */

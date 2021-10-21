@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+/* WHITE VER */
+
+.patr {
+  width: 400px;
+  background: white;
+  position: relative;
+  margin: auto;
+  color: #1a1a1a;
+  padding: 30px 50px;
+  font-family: "Roboto";
+  font-size: 13px;
+  border: 1px solid gainsboro;
+  box-sizing: border-box;
+}
+
+.patr a {
+  color: grey;
+}
+
+.patr b {
+  color: var(--patr);
+}
+
+.patr u {
+  -webkit-text-decoration: underline var(--patr);
+          text-decoration: underline var(--patr);
+}
+
+.patr .top {
+  height: 170px;
+  background-position: center;
+}
+
+.patr img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 150px;
+  width: 100%;
+  border: 1px solid #1a1a1a;
+  background-position: center;
+  padding: 5px;
+}
+
+.patr .titre {
+  font-size: 25px;
+  font-style: italic;
+  font-family: georgia;
+  text-align: left;
+  width: 100px;
+  float: right;
+  text-transform: uppercase;
+  border-left: 3px solid var(--patr);
+  letter-spacing: -2px;
+  padding-left: 10px;
+  margin: 15px 0 10px 15px;
+  line-height: 24px;
+}
+
+.patr .rp {
+  text-align: justify;
+}
+
+.patr .note {
+  text-align: right;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/* BLACK VER */
+.onus {
+  width: 400px;
+  background: #333;
+  position: relative;
+  margin: auto;
+  color: #dfdfdf;
+  padding: 30px 50px;
+  font-family: "Roboto";
+  font-size: 13px;
+  border: 1px solid #6C6C6C;
+  box-sizing: border-box;
+}
+
+.onus a {
+  color: grey;
+}
+
+.onus b {
+  color: var(--onus);
+}
+
+.onus u {
+  -webkit-text-decoration: underline var(--onus);
+          text-decoration: underline var(--onus);
+}
+
+.onus .top {
+  height: 170px;
+  background-position: center;
+}
+
+.onus img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 150px;
+  width: 100%;
+  border: 1px solid #DFDFDF;
+  background-position: center;
+  padding: 5px;
+}
+
+.onus .titre {
+  font-size: 25px;
+  font-style: italic;
+  font-family: georgia;
+  text-align: left;
+  width: 100px;
+  float: right;
+  text-transform: uppercase;
+  border-left: 3px solid var(--onus);
+  letter-spacing: -2px;
+  padding-left: 10px;
+  margin: 15px 0 10px 15px;
+  line-height: 24px;
+}
+
+.onus .rp {
+  text-align: justify;
+}
+
+.onus .note {
+  text-align: right;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/* CREDIT */
+
+.credit {
+  color: #1a1a1a;
+  font-size: 7px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:400,700&display=swap');
+
+#swan {
+  --black: #323232;
+  --grey: silver;
+}
+
+#swan {
+  width: 450px;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid var(--grey);
+  background: white;
+  box-sizing: border-box;
+  padding: 20px;
+  color: var(--black);
+  font-family: 'Roboto'!important;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#swan div {
+  box-sizing: border-box;
+}
+
+#swan b {
+  color: var(--swan);
+}
+
+#swan i {
+  color: #858585;
+}
+
+#swan u {
+  text-decoration: underline var(--swan);
+}
+
+#swan .tophead {}
+
+#swan .tophead .dots {
+  width: 95%;
+  position: absolute;
+}
+
+#swan .tophead .dots li {
+  width: 12px;
+  height: 12px;
+  list-style: none;
+  text-align: center;
+  line-height: 5px;
+  margin: 0 12px 15px 10px;
+  float: left;
+  font-size: 15px;
+  color: var(--grey);
+}
+
+#swan .black {
+  width: 25%;
+  margin-top: 5px;
+}
+
+#swan .black .wrap {
+  width: 50px;
+  height: 50px;
+  border-left: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  transform: rotate(45deg);
+  border-radius: 100%;
+  padding: 5px;
+  margin: auto;
+}
+
+#swan .black .wrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  transform: rotate(-45deg);
+  transition: 1.7s ease-in-out;
+}
+
+#swan .black .wrap img:hover {
+  transform: rotate(315deg);
+}
+
+#swan .darks {
+  width: 75%;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 900;
+  align-self: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--black);
+  text-shadow: 2px 2px var(--swan);
+  text-align: justify;
+  padding-right: 30px;
+  z-index: 3;
+}
+
+#swan .ebony {
+  width: 100%;
+  border-bottom: 2px dotted var(--swan);
+  margin: 30px 30px 10px 30px;
+  padding: 0 20px 20px 20px;
+  text-align: justify;
+}
+
+#swan .ebony a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 9px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--swan);
+  transition: .5s ease-in-out;
+}
+
+#swan .ebony a:hover {
+  color: var(--swan);
+}
+
+#swan .ebony .onyx {
+  float: right;
+  margin-top: 30px;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:700,700i|Roboto&display=swap');
+
+.blood {
+  width: 330px;
+  height: 13px;
+  border: 1px solid lightgrey;
+  text-align: left;
+  padding: 10px;
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  letter-spacing: -1px;
+  padding-top: 30px;
+  color: black;
+  background: white;
+}
+
+.blood img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  float: right;
+  background: white;
+  padding: 6px;
+  border: 1px solid black;
+  margin-top: -18px;
+}
+
+.sky {
+  display: inline-block;
+  border-bottom: 3px solid black;
+  float: left;
+  height: 22px;
+  text-transform: lowercase;
+}
+
+.febr {
+  width: 280px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid black;
+  padding: 50px 35px 35px 35px;
+  text-align: justify;
+  background: white;
+}
+
+.love {
+  font-family: 'Noto Serif', serif;
+  text-transform: uppercase;
+  font-size: 8px;
+  width: 340px;
+  padding: 10px 5px 10px 5px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  color: black;
+  background: white;
+}
+
+.savage {
+  width: 340px;
+  font-size: 8px;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 10px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-top: 5px;
+  background: white;
+  font-family: 'Noto Serif', serif;
+}
